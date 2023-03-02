@@ -108,7 +108,3 @@ while True:
         break
 
 window.Close()
-
-# GUI launches pingign automatically when the app is launched with default time interval 300s and also alows to stop pinging, change time interval, and start pinging with chosen time interval.
-# It was made cause the script will be autolaunched on windows server and in case if server will be reloaded it is not neccessary to launch the script manually.
-# Logs are made in a separate folder that will be created automatically. Every day will be written in a separete log file.
