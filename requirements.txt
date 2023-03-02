@@ -1,0 +1,2 @@
+cx-Freeze==6.14.5
+PySimpleGUI==4.60.4
