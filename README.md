@@ -9,11 +9,11 @@
 # Functionality description.
 
 
-Program has simple GUI interface and allows to check connection between Windows server and solar batteries invertors in the network by sending requests to provided IP addresses (list of IP addresses should be provided in "ips.txt" file at the same directory with the main script). 
+Program has simple GUI interface and allows to check connection between Windows server and solar batteries inverters in the network by sending requests to provided IP addresses (list of IP addresses should be provided in "ips.txt" file at the same directory with the main script). 
 In case of any troubles interested recepients will receive an email with description of the issue.
-***Standard time interval of requests is 300s but it can be cahnged optionally***. In case if by some reasonse program is not recieving an answer from invertor,
+***Standard time interval of requests is 300s but it can be cahnged optionally***. In case if by some reasonse program is not recieving an answer from inverter,
 it will make several requests with interval 5 seconds and only after that will send an email notification to all recepients indicated in settings.
-First launch of the program is automatical (program immediately starts sending requests without additional clicking "start" button). In case of server reload program will be autolaunched and there is no need for user to launch it manually in case of any server failure. 
+First launch of the program is automatical (program immediately starts sending requests without additional clicking "start" button). In case of server reload, program will be autolaunched and there is no need for user to launch it manually in case of any server failure. 
 User can stop sending requests, change interval of sending requests and start the program manually after some changes or optionally.
 Also the program is creating log files where it indicates time, status of requests, notifications about sent emails etc. Log files will be created automatically
 after launching the program in a separate folder and will be named in accordance with current date (every day will be written in a separate log file).
@@ -50,8 +50,7 @@ pip install -r requirements.txt
  
  # Why should you try it?
  
- It's a simple program that can be adapted to your needs and save your time and money by continually checking the performance of your equipment 
- and reporting faults in a timely wanner.
+This is a reliable and easy-to-use tool that is equiped with several features that make it a powerful tool for managing your network. You have complete control over how the program operates. It can be adapted to your needs and will save your time and money by continually checking the performance of your equipment and reporting faults in a timely wanner.
 
 
 # License
