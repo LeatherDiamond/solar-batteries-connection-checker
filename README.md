@@ -1,4 +1,12 @@
-## Functionality description.
+# Navigation
+
+* ***[Functionality description](#functionality-description)***
+* ***[How to start?](#how-to-start)***
+* ***[Why should you try it?](#why-should-you-try-it)***
+* ***[License](#license)***
+
+
+# Functionality description.
 
 
 Program has simple GUI interface and allows to check connection between Windows server and solar batteries invertors in the network by sending requests to provided IP addresses (list of IP addresses should be provided in "ips.txt" file at the same directory with the main script). 
@@ -11,7 +19,7 @@ Also the program is creating log files where it indicates time, status of reques
 after launching the program in a separate folder and will be named in accordance with current date (every day will be written in a separate log file).
 
 
-## How to start?
+# How to start?
 
 1. **Clone current repository on your local machine.**
 ```
@@ -40,7 +48,12 @@ pip install -r requirements.txt
  python setup.py build
  ```
  
- ## Why should you try it?
+ # Why should you try it?
  
  It's a simple program that can be adapted to your needs and save your time and money by continually checking the performance of your equipment 
  and reporting faults in a timely wanner.
+
+
+# License
+
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/LeatherDiamond/solar_batteries_connection_checker/blob/master/LICENCE) file for details.
