@@ -18,6 +18,9 @@ User can stop sending requests, change interval of sending requests and start th
 Also the program is creating log files where it indicates time, status of requests, notifications about sent emails etc. Log files will be created automatically
 after launching the program in a separate folder and will be named in accordance with current date (every day will be written in a separate log file).
 
+- Python (>=3.9.7)
+- Cx-Freeze (>=6.14.5)
+
 
 # How to start?
 
@@ -25,21 +28,28 @@ after launching the program in a separate folder and will be named in accordance
 ```
 git clone https://github.com/LeatherDiamond/solar_batteries_connection_checker.git
 ```
-2. **Install all requirements from "requirements.txt".**
+
+2. **Create and activate virtual environment on your machine:**
+```
+python -m venv environment_name
+.\env\Scripts\activate
+```
+
+3. **Install all requirements from "requirements.txt".**
 ```
 pip install -r requirements.txt
 ```
 
-3. **Create "ips.txt" file in the same directory with the main script and provide ip addresses that will be pinged.**
+4. **Create "ips.txt" file in the same directory with the main script and provide ip addresses that will be pinged.**
 
-4. **Provide mandatory data to the following fields:** *(In program code this information is imported from "local_settings.py" file.)*
+5. **Provide mandatory data to the following fields:** *(In program code this information is imported from "local_settings.py" file.)*
  > - email_username ***(login to prefered account from which email notifications will be send)***,
  > - email_password ***(password to prefered account from which email notifications will be send)***,
  > - email_to ***(recepient email address, also can be indicated several email addresses)***,
  > - email_from ***(email address from which notification emails will be send)***,
  > - server ***(server address and port)***.
  
- 5. **Launch the program.**
+ 6. **Launch the program.**
  
  - [x] ***Optional:*** This program can be converted to "exe" file that will allow you to run an application that will run on any machine without installing specialised software.
  
